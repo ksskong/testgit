@@ -1,2 +1,14 @@
 the first command:git clone
 hello, welcome to git word
+command:
+1.git restore --staged <file>  //把用gitadd 加到缓存区里的文件退回到工作区
+  git reset -- <file>
+  git reset --                  //把缓存区里的所有文件退回到工作区
+  git rm --cached <file>        //把用gitadd 加到缓存区里的文件退回到工作区
+2:git diff   //用来查看工作区被跟踪文件的修改情况，只有在版本区中存在过的文件才可以被跟踪
+  git diff <file> //查看这个文件的修改
+3：git add .
+   git add *
+   git add <file>
+4: git reset --soft HEAD^  //撤销一次提交
+5：git branch -avv //查看分支信息
